@@ -1,0 +1,11 @@
+name = "RSR 0.1.0";
+picture = "rsr_logo.paa";
+logo = "rsr_logo.paa";
+logoOver = "rsr_logo.paa";
+tooltip = "RSR: Reimchen - Stura - Redd";
+tooltipOwned = "RSR: Reimchen - Stura - Redd";
+overview = "";
+author = "Reimchen - Stura - Redd";
+overviewPicture = "rsr_logo.paa";
+overviewText = "Reimchen - Stura - Redd";
+overviewFootnote = "";
