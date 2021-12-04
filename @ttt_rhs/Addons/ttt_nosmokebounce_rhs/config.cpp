@@ -29,6 +29,7 @@ class CfgPatches
 };
 class CfgAmmo
 {
+	class SmokeShell;
 	class rhs_40mm_smoke_white: SmokeShell
 	{
 		simulation="shotSmoke";
