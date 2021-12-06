@@ -21,9 +21,9 @@ class RscDisplayMain: RscStandardDisplay
 		{
 			text = "Tactical Training Team - RHS Server"; // Text displayed on the square button, converted to upper-case
 			textIsQuote = 0; // 1 to add quotation marks around the text
-			picture = "ttt_rhs\ttt_spotlight_rhs\button.paa"; // Square picture, ideally 512x512
+			picture = "\ttt_spotlight_rhs\button.paa"; // Square picture, ideally 512x512
 			//video = "\a3\Ui_f\Video\spotlight_1_Apex.ogv"; // Video played on mouse hover
-			action = "0 = [_this, 'game.tacticalteam.de', '2332', '130'] execVM 'ttt_rhs\ttt_spotlight_rhs\joinServer.sqf';";
+			action = "0 = [_this, 'game.tacticalteam.de', '2332', '130'] execVM '\ttt_spotlight_rhs\joinServer.sqf';";
 			actionText = "Join server: Tactical Training Team - RHS Server"; // Text displayed in top left corner of on-hover white frame
 			condition = "true"; // Condition for showing the spotlight
 		};
