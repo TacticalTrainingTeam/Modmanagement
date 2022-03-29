@@ -3,7 +3,6 @@ class CfgPatches
 {
 	class Backpackfix
 	{
-		requiredAddons[] = {"TTT"};
 		requiredVersion = 0.1;
 		units[] = {};
 		weapons[] = {};
