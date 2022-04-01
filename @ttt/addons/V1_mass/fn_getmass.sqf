@@ -19,10 +19,10 @@ V1_Get_Mass = {
 
 
 _V1_action_mass_things = ["getmassmax","Gewicht auslesen","",V1_Get_Mass,{true}] call ace_interact_menu_fnc_createAction;  
-["Thing", 0, ["ACE_MainActions"], _V1_action_mass_things, true] call ace_interact_menu_fnc_addActionToClass;
+["ReammoBox_F", 0, ["ACE_MainActions"], _V1_action_mass_things, true] call ace_interact_menu_fnc_addActionToClass;
 
 _V1_action_mass_vehicles = ["getmassmax","Gewicht auslesen","",V1_Get_Mass,{true}] call ace_interact_menu_fnc_createAction;  
-["Car", 0, ["ACE_MainActions"], _V1_action_mass_vehicles, true] call ace_interact_menu_fnc_addActionToClass;
+["LandVehicle", 0, ["ACE_MainActions"], _V1_action_mass_vehicles, true] call ace_interact_menu_fnc_addActionToClass;
 
 
 };

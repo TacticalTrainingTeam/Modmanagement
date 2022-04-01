@@ -52,9 +52,9 @@ class CfgPatches
 			"rsr_wisent_ammo_tropentarn",
 			"rsr_wisent_fuel_tropentarn",
 			"rsr_eagle",
-			"rsr_eagle_lowvis",
+			"rsr_eagle_flecktarn_lowvis",
 			"rsr_eagle_trop",
-			"rsr_eagle_trop_lowvis",
+			"rsr_eagle_tropen_lowvis",
 			"rsr_wisent_medical_tropentarn",
 			"rsr_gepard_tropentarn"
 		};
