@@ -3,7 +3,6 @@ class CfgPatches
 {
 	class Backpackfix
 	{
-		requiredAddons[] = {"TTT"};
 		requiredVersion = 0.1;
 		units[] = {};
 		weapons[] = {};
@@ -61,4 +60,16 @@ class CfgVehicles
 		maximumLoad = 320;
 		mass = 50;
 	};
+	class B_CivilianBackpack_01_Base_F: Bag_Base
+	{
+	};	
+	class B_CivilianBackpack_01_Everyday_Black_F: B_CivilianBackpack_01_Base_F
+	{
+	};	
+	class debug_pack: B_CivilianBackpack_01_Everyday_Black_F
+	{
+		maximumLoad = 1337;
+		mass = 1;
+	};
+
 };

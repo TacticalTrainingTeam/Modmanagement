@@ -9,7 +9,11 @@ class CfgPatches {
 };
 
 
-
+class Extended_PreInit_EventHandlers {
+    class reim_hunterKiller_preStart {
+		init = "call compile preprocessFileLineNumbers ""\V1_mass\pi.sqf""";
+    };
+};
 
 
 class CfgFunctions {
@@ -18,18 +22,18 @@ class CfgFunctions {
 		class init {
 			file = "\getmass";
 			class getmass {
-				file = V1_mass\fn_getmass.sqf
+				file = V1_mass\fn_getmass.sqf;
 				preInit = 1;
 			};
 		};		
 	};
 
     class V1_lift {
-        tag = "V1_mass"
+        tag = "V1_mass";
         class init {
             file = "\getlift";
             class getlift {
-				file = V1_mass\fn_getlift.sqf
+				file = V1_mass\fn_getlift.sqf;
 				preInit = 1;
 			};
 
