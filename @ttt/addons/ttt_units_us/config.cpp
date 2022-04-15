@@ -3,7 +3,7 @@ class CfgPatches {
 	class TTT_Units_US {
 		units[] = {
 			"TTT_backpack_radio_brown_us_desert",
-			"TTT_backpack_radio_bronx_us_desert",
+			"TTT_backpack_radio_bronze_us_desert",
 			"TTT_backpack_radio_green_us_desert",
 			"TTT_backpack_radio_grey_us_desert",
 			"TTT_backpack_radio_gold_us_desert",
@@ -936,7 +936,7 @@ class CfgVehicles {
 		author = "$STR_Tactical_Training_Team";
 		displayName = "Klasse Bronze Woodland";
 		uniformClass = "TTT_Uniform_Bronze_US_Woodland";
-		hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_US\data\TTT_uniform_bronx_US_Woodland.paa" };
+		hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_US\data\TTT_uniform_bronze_US_Woodland.paa" };
 	};
 
 	class TTT_Blue_US_Woodland : TTT_Yellow_US_Woodland {
@@ -1027,7 +1027,7 @@ class CfgVehicles {
 		author = "$STR_Tactical_Training_Team";
 		displayName = "Klasse Bronze Desert";
 		uniformClass = "TTT_Uniform_Bronze_US_Desert";
-		hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_US\data\TTT_uniform_bronx_US_Desert.paa" };
+		hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_US\data\TTT_uniform_bronze_US_Desert.paa" };
 	};
 
 	class TTT_Blue_US_Desert : TTT_Yellow_US_Desert {
@@ -1076,11 +1076,11 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_US\data\TTT_backpack_radio_brown_us_desert_co.paa"};
 	};
 	
-	class TTT_backpack_radio_bronx_us_desert : TTT_backpack_radio_base_coyote {
+	class TTT_backpack_radio_bronze_us_desert : TTT_backpack_radio_base_coyote {
 		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Funk Rucksack Bronze (US Desert)";
-		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_US\data\TTT_backpack_radio_bronx_us_desert_co.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_US\data\TTT_backpack_radio_bronze_us_desert_co.paa"};
 	};
 	
 	class TTT_backpack_radio_green_us_desert : TTT_backpack_radio_base_coyote {
