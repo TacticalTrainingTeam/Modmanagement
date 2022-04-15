@@ -7,7 +7,7 @@ class CfgPatches {
 			"TTT_backpack_radio_green_us_desert",
 			"TTT_backpack_radio_grey_us_desert",
 			"TTT_backpack_radio_gold_us_desert",
-			"TTT_backpack_radio_platin_us_desert",
+			"TTT_backpack_radio_platinum_us_desert",
 			"TTT_backpack_radio_silver_us_desert",
 			"TTT_backpack_radio_white_us_desert",
 			"TTT_backpack_radio_yellow_us_desert"
@@ -1104,11 +1104,11 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_US\data\TTT_backpack_radio_gold_us_desert_co.paa"};
 	};
 	
-	class TTT_backpack_radio_platin_us_desert : TTT_backpack_radio_base_coyote {
+	class TTT_backpack_radio_platinum_us_desert : TTT_backpack_radio_base_coyote {
 		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Funk Rucksack Platin (US Desert)";
-		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_US\data\TTT_backpack_radio_platin_us_desert_co.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_US\data\TTT_backpack_radio_platinum_us_desert_co.paa"};
 	};
 	
 	class TTT_backpack_radio_silver_us_desert : TTT_backpack_radio_base_coyote {
