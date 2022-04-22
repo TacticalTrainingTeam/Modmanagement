@@ -9,12 +9,12 @@ class CfgPatches {
 			"TTT_Helmet_Hawk",
 			"TTT_Helmet_Falcon",
 			"TTT_Helmet_Eagle",
-			"TTT_helmet_bronx_vehiclecrew",
+			"TTT_helmet_bronze_vehiclecrew",
 			"TTT_helmet_grey_vehiclecrew",
 			"TTT_helmet_silver_vehiclecrew",
 			"TTT_helmet_yellow_vehiclecrew",
 			"TTT_helmet_vehiclecrew",
-			"TTT_Vest_Crew_Bronx",
+			"TTT_Vest_Crew_bronze",
 			"TTT_Vest_Crew_Silver",
 			"TTT_Vest_Crew_White",
 			};
@@ -140,11 +140,11 @@ class CfgWeapons {
 		displayName = "TTT Fahrzeugcrew";
 	};
 	
-	class TTT_helmet_bronx_vehiclecrew : H_HelmetCrew_I {
+	class TTT_helmet_bronze_vehiclecrew : H_HelmetCrew_I {
 		scope = 2;
 		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Fahrzeugcrew (Bronze)";
-		hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_base\data\TTT_helmet_bronx_vehiclecrew.paa" };
+		hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_base\data\TTT_helmet_bronze_vehiclecrew.paa" };
 	};
 
 	class TTT_helmet_grey_vehiclecrew : H_HelmetCrew_I {
@@ -206,12 +206,12 @@ class CfgWeapons {
 		displayName = "$STR_TTT_Vest_Crew_Base";
 	};
 	
-	class TTT_Vest_Crew_Bronx : TTT_Vest_Crew_Base {
+	class TTT_Vest_Crew_bronze : TTT_Vest_Crew_Base {
 		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Crew Weste Bronze";
 		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_base\data\TTT_vest_bronx_co.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_base\data\TTT_vest_bronze_co.paa"};
 	};
 	
 	class TTT_Vest_Crew_Silver : TTT_Vest_Crew_Base {

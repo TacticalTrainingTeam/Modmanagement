@@ -540,7 +540,7 @@ class CfgVehicles {
 		author = "$STR_Tactical_Training_Team";
 		displayName = "Klasse Bronze Flecktarn";
 		uniformClass = "TTT_Uniform_Bronze_BW_Flecktarn";
-		hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_bronx_bw_flecktarn.paa" };
+		hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_bronze_bw_flecktarn.paa" };
 	};
 
 	class TTT_Blue_BW_Flecktarn : TTT_Yellow_BW_Flecktarn {
@@ -631,7 +631,7 @@ class CfgVehicles {
 		author = "$STR_Tactical_Training_Team";
 		displayName = "Klasse Bronze Tropentarn";
 		uniformClass = "TTT_Uniform_Bronze_BW_Tropentarn";
-		hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_bronx_bw_tropentarn.paa" };
+		hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_bronze_bw_tropentarn.paa" };
 	};
 
 	class TTT_Blue_BW_Tropentarn : TTT_Yellow_BW_Tropentarn {
