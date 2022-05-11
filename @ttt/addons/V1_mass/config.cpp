@@ -10,7 +10,7 @@ class CfgPatches {
 
 
 class Extended_PreInit_EventHandlers {
-    class reim_hunterKiller_preStart {
+    class V1_Mass_preStart {
 		init = "call compile preprocessFileLineNumbers ""\V1_mass\pi.sqf""";
     };
 };
