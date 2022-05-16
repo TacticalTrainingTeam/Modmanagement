@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="V1_Mods">
+    <Package name="V1_Mass">
+        <Key ID="STR_V1_Mass_DisplayName">
+            <English>V1 Mass</English>
+            <German>V1 Mass</German>
+        </Key>
+        <Key ID="STR_V1_Mass_GetMass">
+            <English>Get mass of object</English>
+            <German>Gewicht auslesen</German>
+        </Key>
+        <Key ID="STR_V1_Mass_GetLift">
+            <English>Get liftcapability</English>
+            <German>Maximale Traglast auslesen</German>
+        </Key>
+        <Key ID="STR_V1_Mass_Settings">
+            <English>Read-out mass of objects</English>
+            <German>Gewicht von Objekten auslesen</German>
+        </Key>
+    </Package>
+</Project>

@@ -12,5 +12,6 @@ V1_Get_Lift_Capability = {
     hint format ["%1 KG",_slingLoadMaxCargoMass];
 };
 
-_V1_action = ["getLift","Maximale Traglast auslesen","",V1_Get_Lift_Capability,{true}] call ace_interact_menu_fnc_createAction;  
-["Helicopter", 0, ["ACE_MainActions"], _V1_action, true] call ace_interact_menu_fnc_addActionToClass;
+
+_V1_action = ["getLift",localize "STR_V1_Mass_GetLift","",V1_Get_Lift_Capability,{true}] call ace_interact_menu_fnc_createAction;  
+["Helicopter", 0, ["ACE_MainActions"],str _V1_action, true] call ace_interact_menu_fnc_addActionToClass;
