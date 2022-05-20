@@ -5,8 +5,7 @@
 
 
 
-If (V1_mass_toggle) exitWith {
-    
+If !(V1_mass_toggle) exitWith {};
 
 
 V1_Get_Mass = {
@@ -14,7 +13,7 @@ V1_Get_Mass = {
     private ["_mass"]; 
     _mass = getmass _target;
     hint format ["%1 KG",_mass];
-    };
+};
 
 
 
@@ -23,6 +22,3 @@ _V1_action_mass_things = ["getmassmax",localize "STR_V1_Mass_GetMass","",V1_Get_
 
 _V1_action_mass_vehicles = ["getmassmax",localize "STR_V1_Mass_GetMass","",V1_Get_Mass,{true}] call ace_interact_menu_fnc_createAction;  
 ["LandVehicle", 0, ["ACE_MainActions"], _V1_action_mass_vehicles, true] call ace_interact_menu_fnc_addActionToClass;
-
-
-};

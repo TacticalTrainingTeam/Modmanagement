@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="V1_Mods">
+    <Package name="V1_Saline">
+        <Key ID="STR_V1_Saline_DisplayName">
+            <English>V1 Saline</English>
+            <German>V1 Saline</German>
+        </Key>
+        <Key ID="STR_V1_Saline_Settings">
+            <English>Use IV Bag split/combine</English>
+            <German>Nutze Salinebeutel trennen/zusammenfügen</German>
+        </Key>
+        <Key ID="STR_V1_Saline_feedback">
+            <English>Transferred %1 ml into %2x %3 ml</English>
+            <German>%1 ml in %2x %3 ml umgefüllt</German>
+        </Key>    
+        <Key ID="STR_V1_Saline_main">
+            <English>IV Bag</English>
+            <German>Salinebeutel</German>
+        </Key>
+        <Key ID="STR_V1_Saline_U1">
+            <English>Combine</English>
+            <German>zusammenfügen</German>
+        </Key>        
+        <Key ID="STR_V1_Saline_U2">
+            <English>Split</English>
+            <German>teilen</German>
+        </Key>
+        <Key ID="STR_V1_Saline_R1">
+            <English>1000 ml into 2x 500 ml</English>
+            <German>1000 ml zu 2x 500 ml</German>
+        </Key>
+        <Key ID="STR_V1_Saline_R2">
+            <English>500 ml into 2x 250 ml</English>
+            <German>500 ml zu 2x 250 ml</German>
+        </Key>
+        <Key ID="STR_V1_Saline_R3">
+            <English>1000 ml into 4x 250 ml</English>
+            <German>1000 ml zu 4x 250 ml</German>
+        </Key>
+        <Key ID="STR_V1_Saline_R4">
+            <English>2x 500 ml into 1000 ml</English>
+            <German>2x 500 ml zu 1000 ml</German>
+        </Key>
+        <Key ID="STR_V1_Saline_R5">
+            <English>4x 250 ml into 1000 ml</English>
+            <German>4x 250 ml zu 1000 ml</German>
+        </Key>
+        <Key ID="STR_V1_Saline_R6">
+            <English>2x 250 ml into 500 ml</English>
+            <German>2x 250 ml zu 500 ml</German>
+        </Key>                        
+    </Package>
+</Project>
