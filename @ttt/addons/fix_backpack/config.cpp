@@ -75,7 +75,7 @@ class CfgVehicles
 	class B_TacticalPack_Base: Bag_Base
 	{
 	};
-	class B_TacticalPack_Base: B_TacticalPack_blk
+	class B_TacticalPack_blk: B_TacticalPack_Base
 	{
 	};	
 	class debug_pack2: B_TacticalPack_blk
@@ -87,7 +87,7 @@ class CfgVehicles
 	class B_ViperHarness_base_F: Bag_Base
 	{
 	};
-	class B_ViperHarness_base_F: B_ViperHarness_blk_F
+	class B_ViperHarness_blk_F: B_ViperHarness_base_F
 	{
 	};	
 	class debug_pack3: B_ViperHarness_blk_F
