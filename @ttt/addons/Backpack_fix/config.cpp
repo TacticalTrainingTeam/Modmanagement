@@ -72,4 +72,29 @@ class CfgVehicles
 		mass = 1;
 	};
 
+	class B_TacticalPack_Base: Bag_Base
+	{
+	};
+	class B_TacticalPack_Base: B_TacticalPack_blk
+	{
+	};	
+	class debug_pack2: B_TacticalPack_blk
+	{
+		maximumLoad = 9001;
+		mass = 1;
+	};
+
+	class B_ViperHarness_base_F: Bag_Base
+	{
+	};
+	class B_ViperHarness_base_F: B_ViperHarness_blk_F
+	{
+	};	
+	class debug_pack3: B_ViperHarness_blk_F
+	{
+		maximumLoad = 9001;
+		mass = 1;
+	};
+
+
 };
