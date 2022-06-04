@@ -7,7 +7,7 @@
 [
 "V1_mass_toggle",
 "CHECKBOX",
-"Gewicht von Objekten Auslesen",
+"STR_V1_Mass_Settings",
 "V1 mods",
 true,
 2,
