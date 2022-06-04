@@ -10,6 +10,6 @@ class CfgPatches {
 
 class Extended_PreInit_EventHandlers
 {
-    init = "if ((isNil ""ai_fix"")) then { ai_fix = true; [] execVM ""\ai_fix\initServer.sqf"";}";
+    init = "if ((isNil ""fix_ai"")) then { ai_fix = true; [] execVM ""\fix_ai\initServer.sqf"";}";
         
 };
