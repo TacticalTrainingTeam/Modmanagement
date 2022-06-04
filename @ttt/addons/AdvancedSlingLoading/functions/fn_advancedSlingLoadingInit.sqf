@@ -112,7 +112,7 @@ ASL_Rope_Adjust_Mass = {
 	private ["_mass","_lift","_originalMass","_heavyLiftMinLift"];
 	_lift = [_heli] call ASL_Rope_Get_Lift_Capability;
 	_originalMass = getMass _obj;
-	_heavyLiftMinLift = missionNamespace getVariable ["ASL_SET_MASS",4000]; //CBA setting slider i.e. ASL_SET_MASS = [4000]
+	_heavyLiftMinLift = missionNamespace getVariable ["ASL_SET_MASS", 4000];
  	if( _originalMass >= ((_lift)*0.8) && _lift >= _heavyLiftMinLift ) then {
 		private ["_originalMassSet","_ends","_endDistance","_ropeLength"];
 		_originalMassSet = (getMass _obj) == _originalMass;
