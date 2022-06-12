@@ -14,8 +14,44 @@
             <German>Maximale Traglast auslesen</German>
         </Key>
         <Key ID="STR_V1_Mass_Settings">
-            <English>Read-out mass of objects</English>
-            <German>Gewicht von Objekten auslesen</German>
+            <English>Read-out</English>
+            <German>Auslesen</German>
+        </Key>
+        <Key ID="STR_V1_MassACE_Settings">
+            <English>Change which units is shown</English>
+            <German>Ändere welche Maßeinheit angezeigt wird</German>
+        </Key>
+        <Key ID="STR_V1_MassACE_Feedback">
+            <English>of objects in crate</English>
+            <German>von Objekten in der Kiste</German>
+        </Key>
+        <Key ID="STR_V1_MassACE_global_Feedback">
+            <English>global values</English>
+            <German>globale Werte</German> 
+        </Key>
+        <Key ID="STR_V1_MassACE_Main">
+            <English>Get mass</English>
+            <German>Gewicht auslesen</German>
+        </Key>
+        <Key ID="STR_V1_MassACE_KG">
+            <English>In KG</English>
+            <German>In KG</German>
+        </Key>
+        <Key ID="STR_V1_MassACE_AMU">
+            <English>In ACE Massunits</English>
+            <German>In ACE Massunits</German>
+        </Key>
+        <Key ID="STR_V1_MassACE_AMU_short">
+            <English>In AMU</English>
+            <German>In AMU</German>
+        </Key>
+        <Key ID="STR_V1_Mass_GetMassACE_U1">
+            <English>Read-out slingload mass</English>
+            <German>Slingload Masse auslesen</German> Slingload
+        </Key>
+        <Key ID="STR_V1_Mass_GetMassACE_U2">
+            <English>Read-out AMU/KG</English>
+            <German>AMU/KG auslesen</German> Slingload
         </Key>
     </Package>
 </Project>
