@@ -1,6 +1,6 @@
 /*
 	author = V1irus
-	description = Gets ACE mass of Objects in a Container
+	description = Gets ACE Mass of Objects in a Container
 */
 
 If !(V1_mass_toggle) exitWith {};
