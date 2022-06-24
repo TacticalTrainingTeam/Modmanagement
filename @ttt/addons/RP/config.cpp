@@ -15,12 +15,6 @@ class Extended_PreInit_EventHandlers
 };
 
 
-class Extended_PreInit_EventHandlers {
-    class RP_preStart {
-		init = "call compile preprocessFileLineNumbers ""\V1_Saline\pi.sqf""";
-    };
-};
-
 
 class CfgDiscordRichPresence {
     applicationID="919991023218868235";             // Provided by discord
