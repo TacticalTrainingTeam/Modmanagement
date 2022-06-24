@@ -5,10 +5,10 @@
 
 
 [
-"V1_Saline_toggle",
+"RP_toggle",
 "CHECKBOX",
-"STR_V1_Saline_Settings",
-["V1 mods", "V1 Saline"],
+"Turn on rich presence for Discord",
+"TTT",
 true,
 2,
 {},

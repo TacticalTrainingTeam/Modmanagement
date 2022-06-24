@@ -2,8 +2,7 @@ ASL_Advanced_Sling_Loading_Install = {
 
 // Prevent advanced sling loading from installing twice
 if(!isNil "ASL_ROPE_INIT") exitWith {};
-ASL_ROPE_INIT = true; // on or off
-
+ASL_ROPE_INIT = true; 
 diag_log "Advanced Sling Loading Loading...";
 
 ASL_Rope_Get_Lift_Capability = {
@@ -11,7 +10,7 @@ ASL_Rope_Get_Lift_Capability = {
 	private ["_slingLoadMaxCargoMass"];
 	_slingLoadMaxCargoMass = getNumber (configFile >> "CfgVehicles" >> typeOf _vehicle >> "slingLoadMaxCargoMass");
 	if(_slingLoadMaxCargoMass <= 0) then {
-		_slingLoadMaxCargoMass = 12000; //slider
+		_slingLoadMaxCargoMass = 4000; 
 	};
 	_slingLoadMaxCargoMass;	
 };
@@ -112,7 +111,7 @@ ASL_Rope_Adjust_Mass = {
 	private ["_mass","_lift","_originalMass","_heavyLiftMinLift"];
 	_lift = [_heli] call ASL_Rope_Get_Lift_Capability;
 	_originalMass = getMass _obj;
-	_heavyLiftMinLift = missionNamespace getVariable ["ASL_SET_MASS", 4000];
+	_heavyLiftMinLift = missionNamespace getVariable ["ASL_SET_MASS",4000];
  	if( _originalMass >= ((_lift)*0.8) && _lift >= _heavyLiftMinLift ) then {
 		private ["_originalMassSet","_ends","_endDistance","_ropeLength"];
 		_originalMassSet = (getMass _obj) == _originalMass;
@@ -749,7 +748,7 @@ ASL_Attach_Ropes = {
 					_allCargo = _vehicle getVariable ["ASL_Cargo",[]];
 					_allCargo set [(_vehicleWithIndex select 1),_cargo];
 					_vehicle setVariable ["ASL_Cargo",_allCargo, true];
-					if(missionNamespace getVariable ["ASL_HEAVY_LIFTING_ENABLED",true]) then {
+					if(missionNamespace getVariable ["ASL_HEAVY_LIFTING_ENABLED",false]) then {
 						[_cargo, _vehicle, _ropes] spawn ASL_Rope_Adjust_Mass;		
 					};				
 				};
@@ -946,7 +945,7 @@ ASL_Is_Supported_Vehicle = {
 			if(_vehicle isKindOf _x) then {
 				_isSupported = true;
 			};
-		} forEach (missionNamespace getVariable ["ASL_SUPPORTED_VEHICLES_OVERRIDE",ASL_SUPPORTED_VEHICLES]); //ASL_SUPPORTED_VEHICLES_OVERRIDE = [];
+		} forEach (missionNamespace getVariable ["ASL_SUPPORTED_VEHICLES_OVERRIDE",ASL_SUPPORTED_VEHICLES]); 
 	};
 	_isSupported;
 };
@@ -970,7 +969,7 @@ ASL_Is_Supported_Cargo = {
 					};
 				};
 			};
-		} forEach (missionNamespace getVariable ["ASL_SLING_RULES_OVERRIDE",ASL_SLING_RULES]); //ASL_SLING_RULES_OVERRIDE = [], ["Air", "CANT_SLING", "Air"]];
+		} forEach (missionNamespace getVariable ["ASL_SLING_RULES_OVERRIDE",ASL_SLING_RULES]);
 	};
 	_canSling;
 };
@@ -1000,7 +999,7 @@ ASL_Find_Nearby_Vehicles = {
 	_nearVehicles = [];
 	{
 		_nearVehicles append  (player nearObjects [_x, 30]);
-	} forEach (missionNamespace getVariable ["ASL_SUPPORTED_VEHICLES_OVERRIDE",ASL_SUPPORTED_VEHICLES]); //ASL_SUPPORTED_VEHICLES_OVERRIDE = [];
+	} forEach (missionNamespace getVariable ["ASL_SUPPORTED_VEHICLES_OVERRIDE",ASL_SUPPORTED_VEHICLES]);
 	_nearVehiclesWithRopes = [];
 	{
 		_vehicle = _x;

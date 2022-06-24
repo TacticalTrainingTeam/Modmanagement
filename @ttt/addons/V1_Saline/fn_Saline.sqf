@@ -26,7 +26,7 @@ _fnc_covert = {
                 case "ACE_salineIV_500": { 500 };
                 case "ACE_salineIV_250": { 250 };
                 default {0};
-            }
+            };
         };
 
         hint format [localize "STR_V1_Saline_feedback", _from call _fnc_getVolume, _toAmount, _to call _fnc_getVolume];
