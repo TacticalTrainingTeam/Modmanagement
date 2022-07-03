@@ -17,7 +17,7 @@ class Extended_PreInit_EventHandlers
 
 class Extended_PreInit_EventHandlers {
     class RP_preStart {
-		init = "call compile preprocessFileLineNumbers ""\V1_Saline\pi.sqf""";
+		init = "call compile preprocessFileLineNumbers ""\RP\pi.sqf""";
     };
 };
 
