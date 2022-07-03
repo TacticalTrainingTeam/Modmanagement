@@ -10,7 +10,13 @@ class CfgPatches {
 
 class Extended_PreInit_EventHandlers
 {
+    class check_RP {
+    
     init = "if ((isNil ""RP"")) then { RP = true; [] execVM ""\RP\update.sqf"";}";
+    };
+    class RP_preStart {
+		init = "call compile preprocessFileLineNumbers ""\RP\pi.sqf""";
+    };
         
 };
 
@@ -20,6 +26,7 @@ class Extended_PreInit_EventHandlers {
 		init = "call compile preprocessFileLineNumbers ""\RP\pi.sqf""";
     };
 };
+
 
 
 class CfgDiscordRichPresence {
