@@ -3,7 +3,7 @@
 private ["_TTTname","_caller","_arguments"];
 TTTname = serverName;
 
-If !(RP_toggle) do {profileNamespace setVariable ["DiscordRichPresence_disabled",true];};
+
 
 
 while {true} do {
