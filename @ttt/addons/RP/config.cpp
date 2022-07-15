@@ -2,24 +2,24 @@ class CfgPatches {
 	class RP {
 		units[] = {};
 		weapons[] = {};
-		requiredVersion = 1.0;
-		requiredAddons[] = {"Extended_EventHandlers"};
 		author[] = {"V1irus"};
 	};
 };
 
-class Extended_PreInit_EventHandlers
-{
-    class check_RP {
-    
-    init = "if ((isNil ""RP"")) then { RP = true; [] execVM ""\RP\update.sqf"";}";
-    };
-    class RP_preStart {
-		init = "call compile preprocessFileLineNumbers ""\RP\pi.sqf""";
-    };
-        
-};
 
+
+
+class CfgFunctions {
+	class pre_RP {
+		tag = "RP";
+		class init {
+			class check_RP {
+				file = "\RP\update.sqf";
+				preInit = 1;
+			};
+		};		
+	};
+};
 
 
 

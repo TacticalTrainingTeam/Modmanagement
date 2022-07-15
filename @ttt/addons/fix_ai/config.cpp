@@ -1,15 +1,20 @@
 class CfgPatches {
-	class pax_unload {
+	class fix_ai {
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 1.0;
-		requiredAddons[] = {"Extended_EventHandlers"};
-		author[] = {"V1irus"};
 	};
 };
 
-class Extended_PreInit_EventHandlers
-{
-    init = "if ((isNil ""fix_ai"")) then { ai_fix = true; [] execVM ""\fix_ai\initServer.sqf"";}";
-        
+
+class CfgFunctions {
+	class fix_ai {
+		tag = "fix_ai";
+		class init {
+			class fix_ai_init {
+				file = fix_ai\fix_ai.sqf;
+				postInit = 1;
+			};
+		};		
+	};
 };
