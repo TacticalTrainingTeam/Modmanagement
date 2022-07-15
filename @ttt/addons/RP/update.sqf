@@ -5,9 +5,6 @@ TTTname = serverName;
 
 
 
-
-
-
 while {true} do {
 
 [

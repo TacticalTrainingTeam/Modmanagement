@@ -8,6 +8,7 @@ class CfgPatches {
 
 
 
+
 class CfgFunctions {
 	class pre_RP {
 		tag = "RP";
