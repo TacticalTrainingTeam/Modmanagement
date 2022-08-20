@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project name="adv">
-	<Package name="aceCPR">
+<Project name="V1_mods">
+	<Package name="V1_aceCPR">
 		<Key ID="STR_V1_adv_ace_CPR_EXECUTE">
 			<Original>%1 performed CPR</Original>
 			<English>%1 performed CPR</English>
