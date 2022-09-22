@@ -2,30 +2,17 @@ class CfgPatches {
 	class RP {
 		units[] = {};
 		weapons[] = {};
-		author[] = {"V1irus"};
+		requiredVersion = 1.0;
 		requiredAddons[] = {"Extended_EventHandlers"};
+		author[] = {"V1irus"};
 	};
 };
 
-
-
-
-class CfgFunctions {
-	class pre_RP {
-		tag = "RP";
-		class init {
-			class check_RP {
-				file = "\RP\update.sqf";
-				preInit = 1;
-			};
-			class settings_RP {
-				file = "\RP\pi.sqf";
-				preInit = 1;
-			};
-		};		
-	};
+class Extended_PreInit_EventHandlers
+{
+    init = "if ((isNil ""RP"")) then { RP = true; [] execVM ""\RP\update.sqf"";}";
+        
 };
-
 
 
 class CfgDiscordRichPresence {

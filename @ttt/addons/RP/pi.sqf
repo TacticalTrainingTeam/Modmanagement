@@ -5,7 +5,7 @@
 
 
 [
-"RP_toggle",
+"RP_on",
 "CHECKBOX",
 "Turn on rich presence for Discord",
 "TTT",
