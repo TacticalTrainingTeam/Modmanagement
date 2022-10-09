@@ -3,6 +3,7 @@ class CfgPatches {
 		units[] = {};
 		weapons[] = {};
 		author[] = {"V1irus"};
+		requiredAddons[] = {"Extended_EventHandlers"};
 	};
 };
 
@@ -15,6 +16,10 @@ class CfgFunctions {
 		class init {
 			class check_RP {
 				file = "\RP\update.sqf";
+				preInit = 1;
+			};
+			class settings_RP {
+				file = "\RP\pi.sqf";
 				preInit = 1;
 			};
 		};		

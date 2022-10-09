@@ -1,0 +1,2 @@
+nameShort = "TTT Mod optional";
+

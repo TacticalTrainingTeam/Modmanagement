@@ -113,6 +113,18 @@ class cfgWeapons {
             mass = 30;
         };
 	};
+	class ACE_Morphine;
+	class V1_ItemPainkiller: ACE_Morphine
+	{
+		scope=2;
+		displayName="$STR_V1_Painkiller";
+		picture="\V1_adv_ace\Data\painkiller.paa";
+		model="\A3\Structures_F_EPA\Items\Medical\PainKillers_F.p3d";
+		descriptionShort="$STR_V1_PainkillerDescShort";
+		descriptionUse="$STR_V1_PainkillerDescUse";
+		mass=0.60000002;
+	};
+
 };
 
 class cfgVehicles {
@@ -122,7 +134,6 @@ class cfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = "$STR_V1_adv_ace_AED_DISPLAYNAME";
-        author = "[SeL] Belbo";
         vehicleClass = "Items";
 		model = "\A3\Structures_F_EPA\Items\Medical\Defibrillator_F.p3d";
         class TransportItems {
@@ -197,5 +208,46 @@ class ACE_Medical_Treatment_Actions {
 		callbackFailure = "";
 		animationMedic = "AinvPknlMstpSnonWnonDnon_medic3";
 		treatmentLocations = 0;
+		class Morphine;
+	};
+	class Morphine;
+	class V1_Painkiller: Morphine
+	{
+		displayName="$STR_V1_Painkiller";
+		displayNameProgress="$STR_V1_PainkillerDescUsing";
+		allowedSelections[]=
+		{
+			"Head"
+		};
+		items[]=
+		{
+			"V1_ItemPainkiller"
+		};
+		treatmentTime=2;
+		litter[]=
+		{
+			
+			{
+				""
+			}
+		};
+	};
+};
+
+
+class ACE_Medical_Treatment
+{
+	class Morphine;
+	class Medication
+	{
+		class V1_Painkiller: Morphine
+		{
+			painReduce=0.25;
+			timeInSystem=600;
+			timeTillMaxEffect=90;
+			maxDose=8;
+			incompatibleMedication[]={};
+			viscosityChange=0;
+		};
 	};
 };

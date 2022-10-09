@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project name="adv">
-	<Package name="aceCPR">
+<Project name="V1_mods">
+	<Package name="V1_aceCPR">
 		<Key ID="STR_V1_adv_ace_CPR_EXECUTE">
 			<Original>%1 performed CPR</Original>
 			<English>%1 performed CPR</English>
@@ -308,5 +308,25 @@
 			<English>Training level required to use an AED.</English>
 			<Spanish>Se necesita un nivel de formación para usar el DAE</Spanish>
 		</Key>
+		    <Container name="Items">
+      <Key ID="STR_V1_Painkiller">
+        <Original>Painkiller</Original>
+        <English>Painkiller</English>
+        <German>Schmerztabletten</German>
+      </Key>
+      <Key ID="STR_V1_PainkillerDescShort">
+        <Original>Used to reduce pain.</Original>
+        <English>Used to reduce pain.</English>
+        <German>Wird zur Schmerzlinderung eingesetzt.</German>
+      </Key>
+      <Key ID="STR_V1_PainkillerDescUse">
+        <Original>Administering painkillers.</Original>
+        <English>Administering painkillers.</English>
+        <German>Verabreiche Schmerztabletten.</German>
+      </Key>
+      <Key ID="STR_V1_PainkillerDescUsing">
+        <Original>Administering painkillers...</Original>
+        <English>Administering painkillers...</English>
+        <German>Verabreiche Schmerztabletten...</German>
 	</Package>
 </Project>
