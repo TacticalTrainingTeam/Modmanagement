@@ -15,11 +15,11 @@ class CfgFunctions {
 		tag = "RP";
 		class init {
 			class check_RP {
-				file = "\RP\update.sqf";
+				file = "\ttt_discordRichPresence\update.sqf";
 				preInit = 1;
 			};
 			class settings_RP {
-				file = "\RP\pi.sqf";
+				file = "\ttt_discordRichPresence\pi.sqf";
 				preInit = 1;
 			};
 		};		

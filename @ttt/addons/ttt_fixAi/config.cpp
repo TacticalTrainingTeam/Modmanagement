@@ -12,7 +12,7 @@ class CfgFunctions {
 		tag = "fix_ai";
 		class init {
 			class fix_ai_init {
-				file = fix_ai\fix_ai.sqf;
+				file = ttt_fixAi\fix_ai.sqf;
 				postInit = 1;
 			};
 		};		
