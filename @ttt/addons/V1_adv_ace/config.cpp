@@ -243,7 +243,7 @@ class ACE_Medical_Treatment
 		class V1_Painkiller: Morphine
 		{
 			painReduce=0.25;
-			timeInSystem=600;
+			timeInSystem=90;
 			timeTillMaxEffect=90;
 			maxDose=8;
 			incompatibleMedication[]={};
