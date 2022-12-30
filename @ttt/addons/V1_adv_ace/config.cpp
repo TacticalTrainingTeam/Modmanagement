@@ -3,7 +3,7 @@ class CfgPatches
     class V1_adv_ace
     {
         units[] = {
-			"V1_adv_ace_AEDItem"
+			"V1_adv_ace_AEDItem",
 			//,"V1_adv_ace_AEDStation"
 		};
         weapons[] = {
@@ -122,7 +122,7 @@ class cfgWeapons {
 		model="\A3\Structures_F_EPA\Items\Medical\PainKillers_F.p3d";
 		descriptionShort="$STR_V1_PainkillerDescShort";
 		descriptionUse="$STR_V1_PainkillerDescUse";
-		mass=0.60000002;
+		mass=0.10000002;
 	};
 
 };
@@ -145,7 +145,6 @@ class cfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = "$STR_V1_adv_ace_AEDSTATION_DISPLAYNAME";
-        author = "[SeL] Belbo";
         vehicleClass = "Items";
 		model = "\V1_adv_ace\ui\defi.p3d";
 		MACRO_AED_STATION
@@ -208,7 +207,7 @@ class ACE_Medical_Treatment_Actions {
 		callbackFailure = "";
 		animationMedic = "AinvPknlMstpSnonWnonDnon_medic3";
 		treatmentLocations = 0;
-		class Morphine;
+		
 	};
 	class Morphine;
 	class V1_Painkiller: Morphine
@@ -243,8 +242,8 @@ class ACE_Medical_Treatment
 		class V1_Painkiller: Morphine
 		{
 			painReduce=0.25;
-			timeInSystem=90;
-			timeTillMaxEffect=90;
+			timeInSystem=45;
+			timeTillMaxEffect=45;
 			maxDose=8;
 			incompatibleMedication[]={};
 			viscosityChange=0;
