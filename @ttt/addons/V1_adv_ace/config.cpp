@@ -122,7 +122,9 @@ class cfgWeapons {
 		model="\A3\Structures_F_EPA\Items\Medical\PainKillers_F.p3d";
 		descriptionShort="$STR_V1_PainkillerDescShort";
 		descriptionUse="$STR_V1_PainkillerDescUse";
-		mass=0.10000002;
+		class ItemInfo: CBA_MiscItem_ItemInfo {
+            mass = 0.1;
+        };
 	};
 
 };
