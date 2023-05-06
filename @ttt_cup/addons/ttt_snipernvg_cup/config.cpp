@@ -28,7 +28,7 @@ class CfgWeapons
 		{
 			class OpticsModes
 			{
-				class Snip
+				class Specter4x
 				{
 					visionMode[]=
 					{
