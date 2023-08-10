@@ -1,5 +1,5 @@
 //by Nobody ©
-//V 0.2022.08052130
+//V 0.2023.08081924
 //TTT automate Teleport, Streamator & Spectator
 
 //Clib (Streamator)
@@ -7,34 +7,38 @@ if !(isNil "CLib_fnc_loadModules") then { call CLib_fnc_loadModules;};
 
 
 // set 'ttt_teleport_logic = false;' to deaktiveate logic
-waituntil {!isnil "bis_fnc_init"};
-waituntil {time > 1;};
+// waituntil {!isnil "bis_fnc_init"};
+// waituntil {time > 1;};
 
 //willcreate flag & menü
  if(!isNil"ttt_teleport_logic") exitWith {};
 
-if (isServer) then {
-	private ["_count","_pos"];
+if (isServer or !isMultiplayer) then {
+	private ["_count"];
 	//check "respawn" marker or create
-	_pos = getMarkerPos "respawn";
+	ttt_respawn_pos = getMarkerPos "respawn";
 	_count = 0;
 	{
 		_count = _count + _x;
-	} foreach _pos;
+	} foreach ttt_respawn_pos;
 
 	if (_count == 0) then {
-		_pos = position selectRandom playableUnits;
-		_markerrespawn = createMarker ["respawn", _pos];
+		ttt_respawn_pos = [0,0,0];
+		_markerrespawn = createMarker ["respawn", ttt_respawn_pos];
 		_markerrespawn setMarkerShape "RECTANGLE";
 		_markerrespawn setMarkerSize [10, 10];
 	};
 	//check "teleport" obj or create
 	if (isNil"ttt_teleporter") then {
-		ttt_teleporter = "TTT_Flag_Logo" createVehicle _pos;
+		ttt_teleporter = "TTT_Flag_Logo" createVehicle ttt_respawn_pos;
 	};
 };
 
 if (hasInterface) then {
+	//check "teleport" obj and wait
+	if (isNil"ttt_teleporter") then {
+		waitUntil {!isNil"ttt_teleporter"};
+	};
 	// add spectator cam
 	ttt_teleporter addAction ["Zuschauermodus", {
 		params ["_target","_caller"];

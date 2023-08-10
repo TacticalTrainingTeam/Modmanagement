@@ -2,7 +2,9 @@ class CfgPatches {
 	class ttt_teleporter {
 		requiredVersion = 1.0;
 		requiredAddons[] = {"Extended_EventHandlers"};
-		author[] = {"Nobody ©"};
+		author[] = {"Nobody ©"};		
+		units[] = {};
+		weapons[] = {};
 	};
 };
 
