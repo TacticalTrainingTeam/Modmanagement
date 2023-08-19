@@ -40,6 +40,8 @@ class CfgPatches {
 			"TTT_Helmet_7_BW_Tropentarn",
 			"TTT_Helmet_8_BW_Tropentarn",
 			"TTT_Helmet_9_BW_Tropentarn",
+			"TTT_Helmet_10_BW_Tropentarn",
+			"TTT_Helmet_11_BW_Tropentarn",
 			
 			//Helme Flecktarn
 			"TTT_Helmet_1_BW_Flecktarn",
@@ -266,6 +268,16 @@ class CfgWeapons {
 		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Helm IX (BW Tropentarn)";
 		hiddenSelectionsTextures[] = {"\ttt_units_bw\data\TTT_helmet_9_bw_tropentarn.paa"};
+	};
+	class TTT_Helmet_10_BW_Tropentarn : TTT_Helmet_1_BW_Tropentarn {
+		author = "$STR_Tactical_Training_Team";
+		displayName = "TTT Helm X (BW Tropentarn)";
+		hiddenSelectionsTextures[] = {"\ttt_units_bw\data\TTT_helmet_10_bw_tropentarn.paa"};
+	};
+	class TTT_Helmet_11_BW_Tropentarn : TTT_Helmet_1_BW_Tropentarn {
+		author = "$STR_Tactical_Training_Team";
+		displayName = "TTT Helm XI (BW Tropentarn)";
+		hiddenSelectionsTextures[] = {"\ttt_units_bw\data\TTT_helmet_11_bw_tropentarn.paa"};
 	};
 	/*
 	#############################################################
