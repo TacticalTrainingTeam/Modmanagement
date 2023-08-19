@@ -36,6 +36,9 @@ class CfgPatches {
 			"TTT_Helmet_6_US_Desert",
 			"TTT_Helmet_7_US_Desert",
 			"TTT_Helmet_8_US_Desert",
+			"TTT_Helmet_9_US_Desert",
+			"TTT_Helmet_10_US_Desert",
+			"TTT_Helmet_11_US_Desert",
 
 			//Westen Desert
 			"TTT_Vest_Heavy_Yellow_US_Desert",
@@ -272,6 +275,24 @@ class CfgWeapons {
 		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Helm VIII (US Desert)";
 		hiddenSelectionsTextures[] = {"\ttt_units_us\data\TTT_helmet_8_us_desert.paa"};
+	};
+
+	class TTT_Helmet_9_US_Desert : TTT_Helmet_1_US_Desert {
+		author = "$STR_Tactical_Training_Team";
+		displayName = "TTT Helm IX (US Desert)";
+		hiddenSelectionsTextures[] = {"\ttt_units_us\data\TTT_helmet_9_us_desert.paa"};
+	};
+
+	class TTT_Helmet_10_US_Desert : TTT_Helmet_1_US_Desert {
+		author = "$STR_Tactical_Training_Team";
+		displayName = "TTT Helm X (US Desert)";
+		hiddenSelectionsTextures[] = {"\ttt_units_us\data\TTT_helmet_10_us_desert.paa"};
+	};
+
+	class TTT_Helmet_11_US_Desert : TTT_Helmet_1_US_Desert {
+		author = "$STR_Tactical_Training_Team";
+		displayName = "TTT Helm XI (US Desert)";
+		hiddenSelectionsTextures[] = {"\ttt_units_us\data\TTT_helmet_11_us_desert.paa"};
 	};
 	
 	/*
