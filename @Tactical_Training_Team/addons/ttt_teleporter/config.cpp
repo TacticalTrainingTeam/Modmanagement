@@ -17,11 +17,3 @@ class CfgFunctions {
 };
 
 #include "W_Teleporter\dialog.hpp"
-
-class CLib {
-    Modules[] = {"CLib", "Streamator"};
-    useExperimentalAutoload = 0;
-    useCompressedFunction = 0;
-    useFallbackRemoteExecution = 0;
-    FrameGraphSize = 128;
-};
