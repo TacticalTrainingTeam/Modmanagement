@@ -1,10 +1,6 @@
 //by Nobody ©
-//V 0.2023.08081924
-//TTT automate Teleport, Streamator & Spectator
-
-//Clib (Streamator)
-if !(isNil "CLib_fnc_loadModules") then { call CLib_fnc_loadModules;};
-
+//V 0.2023.08311112
+//TTT automate Teleport
 
 // set 'ttt_teleport_logic = false;' to deaktiveate logic
 // waituntil {!isnil "bis_fnc_init"};
