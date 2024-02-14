@@ -32,8 +32,10 @@ class CfgPatches
 		{
 			"rsr_eagle",
 			"rsr_eagle_flecktarn_lowvis",
+			"rsr_eagle_flecktarn_dia",
 			"rsr_eagle_trop",
-			"rsr_eagle_tropen_lowvis"
+			"rsr_eagle_tropen_lowvis",
+			"rsr_eagle_tropen_dia"
 		};
 		weapons[]={};
 	};
@@ -215,6 +217,61 @@ class CfgVehicles
 					"BLU_F"
 				};
 			};
+			class eagle_flecktarn_dia
+			{
+				displayName="Flecktarn Diamant";
+				author="Addi";
+				textures[]=
+				{
+					"\rsr_bwa3\data\eagle\bwa3_eagle_dia_co",
+					"\bwa3_eagle\data\bwa3_eagle_fahrwerk_co.paa",
+					"\bwa3_eagle\data\bwa3_eagle_int_co.paa",
+					"\bwa3_eagle\data\bwa3_eagle_alpha_co.paa",
+					"#(argb,8,8,3)color(0.345098,0.345098,0.345098,1.0,co)",
+					"\bwa3_eagle\data\bwa3_eagle_parts_co.paa",
+					"\bwa3_backpacks\data\bwa3_backpack_fleck_co.paa",
+					"\bwa3_backpacks\data\bwa3_backpack_fleck_co.paa",
+					"\bwa3_common\data\bwa3_normteile_co.paa",
+					"#(argb,8,8,3)color(0,0,0,0,co)",
+					"#(argb,8,8,3)color(0,0,0,0,co)",
+					"#(argb,8,8,3)color(0,0,0,0,co)",
+					"#(argb,8,8,3)color(0,0,0,0,co)",
+					"#(argb,8,8,3)color(0,0,0,0,co)",
+					"#(argb,8,8,3)color(0,0,0,0,co)",
+					"#(argb,8,8,3)color(0,0,0,0,co)",
+					"#(argb,8,8,3)color(0,0,0,0,co)",
+					"#(argb,8,8,3)color(0,0,0,0,co)",
+					"#(argb,8,8,3)color(0,0,0,0,co)",
+					"#(argb,8,8,3)color(0,0,0,0,co)"
+				};
+				hiddenSelections[]=
+				{
+					"chassie",
+					"fahrwerk",
+					"interior",
+					"Glass",
+					"mirror_glass",
+					"parts",
+					"backpack_back",
+					"backpack_top",
+					"licenseplate",
+					"takt_a",
+					"takt_b",
+					"takt_c",
+					"takt_d",
+					"y_a",
+					"y_b",
+					"y_c",
+					"y_d",
+					"y_e",
+					"y_f",
+					"insignia"
+				};
+				factions[]=
+				{
+					"BLU_F"
+				};
+			};
 		};
 		class TransportItems
 		{
@@ -243,6 +300,39 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\rsr_bwa3\data\eagle\bwa3_eagle_co_vis",
+			"\bwa3_eagle\data\bwa3_eagle_fahrwerk_co.paa",
+			"\bwa3_eagle\data\bwa3_eagle_int_co.paa",
+			"\bwa3_eagle\data\bwa3_eagle_alpha_co.paa",
+			"#(argb,8,8,3)color(0.345098,0.345098,0.345098,1.0,co)",
+			"\bwa3_eagle\data\bwa3_eagle_parts_co.paa",
+			"\bwa3_backpacks\data\bwa3_backpack_fleck_co.paa",
+			"\bwa3_backpacks\data\bwa3_backpack_fleck_co.paa",
+			"\bwa3_common\data\bwa3_normteile_co.paa",
+			"#(argb,8,8,3)color(0,0,0,0,co)",
+			"#(argb,8,8,3)color(0,0,0,0,co)",
+			"#(argb,8,8,3)color(0,0,0,0,co)",
+			"#(argb,8,8,3)color(0,0,0,0,co)",
+			"#(argb,8,8,3)color(0,0,0,0,co)",
+			"#(argb,8,8,3)color(0,0,0,0,co)",
+			"#(argb,8,8,3)color(0,0,0,0,co)",
+			"#(argb,8,8,3)color(0,0,0,0,co)",
+			"#(argb,8,8,3)color(0,0,0,0,co)",
+			"#(argb,8,8,3)color(0,0,0,0,co)",
+			"#(argb,8,8,3)color(0,0,0,0,co)"
+		};
+	};
+	class rsr_eagle_flecktarn_dia: rsr_eagle
+	{
+		author="RsR";
+		displayName="Eagle San - Flecktarn Diamant";
+		_generalMacro="I_MRAP_03_F";
+		editorPreview="";
+		scope=2;
+		scopeCurator=2;
+		scopeArsenal=2;
+		hiddenSelectionsTextures[]=
+		{
+			"\rsr_bwa3\data\eagle\bwa3_eagle_dia_co",
 			"\bwa3_eagle\data\bwa3_eagle_fahrwerk_co.paa",
 			"\bwa3_eagle\data\bwa3_eagle_int_co.paa",
 			"\bwa3_eagle\data\bwa3_eagle_alpha_co.paa",
@@ -370,6 +460,38 @@ class CfgVehicles
 					"BLU_F"
 				};
 			};
+			class eagle_tropentarn_dia
+			{
+				displayName="Tropentarn Diamant";
+				author="Addi";
+				textures[]=
+				{
+					"\rsr_bwa3\data\eagle\bwa3_eagle_tropen_dia_co",
+					"\bwa3_eagle\data\bwa3_eagle_fahrwerk_co.paa",
+					"\bwa3_eagle\data\bwa3_eagle_int_co.paa",
+					"\bwa3_eagle\data\bwa3_eagle_alpha_co.paa",
+					"#(argb,8,8,3)color(0.345098,0.345098,0.345098,1.0,co)",
+					"\bwa3_eagle\data\bwa3_eagle_parts_co.paa",
+					"\bwa3_backpacks\data\bwa3_backpack_fleck_co.paa",
+					"\bwa3_backpacks\data\bwa3_backpack_fleck_co.paa",
+					"\bwa3_common\data\bwa3_normteile_co.paa",
+					"#(argb,8,8,3)color(0,0,0,0,co)",
+					"#(argb,8,8,3)color(0,0,0,0,co)",
+					"#(argb,8,8,3)color(0,0,0,0,co)",
+					"#(argb,8,8,3)color(0,0,0,0,co)",
+					"#(argb,8,8,3)color(0,0,0,0,co)",
+					"#(argb,8,8,3)color(0,0,0,0,co)",
+					"#(argb,8,8,3)color(0,0,0,0,co)",
+					"#(argb,8,8,3)color(0,0,0,0,co)",
+					"#(argb,8,8,3)color(0,0,0,0,co)",
+					"#(argb,8,8,3)color(0,0,0,0,co)",
+					"#(argb,8,8,3)color(0,0,0,0,co)"
+				};
+				factions[]=
+				{
+					"BLU_F"
+				};
+			};
 		};
 		class TransportItems
 		{
@@ -398,6 +520,39 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\rsr_bwa3\data\eagle\bwa3_eagle_tropen_co_vis",
+			"\bwa3_eagle\data\bwa3_eagle_fahrwerk_co.paa",
+			"\bwa3_eagle\data\bwa3_eagle_int_co.paa",
+			"\bwa3_eagle\data\bwa3_eagle_alpha_co.paa",
+			"#(argb,8,8,3)color(0.345098,0.345098,0.345098,1.0,co)",
+			"\bwa3_eagle\data\bwa3_eagle_parts_co.paa",
+			"\bwa3_backpacks\data\bwa3_backpack_fleck_co.paa",
+			"\bwa3_backpacks\data\bwa3_backpack_fleck_co.paa",
+			"\bwa3_common\data\bwa3_normteile_co.paa",
+			"#(argb,8,8,3)color(0,0,0,0,co)",
+			"#(argb,8,8,3)color(0,0,0,0,co)",
+			"#(argb,8,8,3)color(0,0,0,0,co)",
+			"#(argb,8,8,3)color(0,0,0,0,co)",
+			"#(argb,8,8,3)color(0,0,0,0,co)",
+			"#(argb,8,8,3)color(0,0,0,0,co)",
+			"#(argb,8,8,3)color(0,0,0,0,co)",
+			"#(argb,8,8,3)color(0,0,0,0,co)",
+			"#(argb,8,8,3)color(0,0,0,0,co)",
+			"#(argb,8,8,3)color(0,0,0,0,co)",
+			"#(argb,8,8,3)color(0,0,0,0,co)"
+		};
+	};
+	class rsr_eagle_tropen_dia: rsr_eagle_trop
+	{
+		author="RsR";
+		displayName="Eagle San - Tropen Diamant";
+		_generalMacro="I_MRAP_03_F";
+		editorPreview="";
+		scope=2;
+		scopeCurator=2;
+		scopeArsenal=2;
+		hiddenSelectionsTextures[]=
+		{
+			"\rsr_bwa3\data\eagle\bwa3_eagle_tropen_dia_co",
 			"\bwa3_eagle\data\bwa3_eagle_fahrwerk_co.paa",
 			"\bwa3_eagle\data\bwa3_eagle_int_co.paa",
 			"\bwa3_eagle\data\bwa3_eagle_alpha_co.paa",
