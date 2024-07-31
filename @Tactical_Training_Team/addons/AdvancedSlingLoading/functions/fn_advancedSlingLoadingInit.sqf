@@ -15,7 +15,8 @@ ASL_Rope_Get_Lift_Capability = {
 	_slingLoadMaxCargoMass;	
 };
 
-ASL_SLING_LOAD_POINT_CLASS_HEIGHT_OFFSET = [  
+ASL_SLING_LOAD_POINT_CLASS_HEIGHT_OFFSET = [ 
+	["All", [-0.05, -0.05, -0.05]],
 	["UK3CB_BAF_Merlin_HC3_18", [-0.05, -0.05, -0.05]],  
 	["UK3CB_BAF_Merlin_HC3_18_GPMG", [-0.05, -0.05, -0.05]],  
 	["UK3CB_BAF_Merlin_HC3_24", [-0.05, -0.05, -0.05]],  
