@@ -4,7 +4,7 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = 0.1;
-        requiredAddons[] = {"ace_common", "cfp_main"};
+        requiredAddons[] = {"ace_trenches","ace_logistics_wirecutter", "cfp_main"};
         skipWhenMissingDependencies = 1;
         author = "TacticalTrainingTeam";
         authors[] = {"Andx"};
