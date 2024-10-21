@@ -137,7 +137,7 @@ class CfgVehicles
 	class rsr_fennek_hmg_flecktarn: I_MRAP_03_hmg_F
 	{
 		author="RsR";
-		displayName="Fennek - HMG FLecktarn";
+		displayName="Fennek - HMG Flecktarn";
 		_generalMacro="I_MRAP_03_F";
 		typicalCargo[]=
 		{
