@@ -1,6 +1,6 @@
 class CfgPatches {
     class ADDON {
-        name = COMPONENT_NAME;
+        name = "CFP - BACKPACK FIX";
         units[] = {};
         weapons[] = {};
         requiredVersion = 0.1;

@@ -75,7 +75,7 @@ class CfgWeapons {
     class TTT_Vest_Lite_Base;	// External class reference
     class TTT_Vest_Crew_Base;	// External class reference
     class TTT_Helmet_Base;		// External class reference
-	class  : U_B_CombatUniform_mcam {
+	class TTT_Uniform_Base_US: U_B_CombatUniform_mcam {
 		scope = 0;
 		displayName = "TTT Uniform Base US";
 		picture = "\ttt_units_base\data\TTT_uniform_icon_us.paa";
