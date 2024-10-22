@@ -62,26 +62,26 @@
         <English>Men (Flecktarn)</English>
       </Key>
 	</Container> 
-    <Container name="Vehilce">
-		<Key ID="STR_TTT_Vehilce_IMV_MG_Flecktarn">
+    <Container name="Vehicle">
+		<Key ID="STR_TTT_Vehicle_IMV_MG_Flecktarn">
 			<Original>Truppfahrzeug MG (BW Flecktarn)</Original>
 			<German>Truppfahrzeug MG (BW Flecktarn)</German>
 			<English>Truppfahrzeug MG (BW Flecktarn)</English>
 		</Key>
-		<Key ID="STR_TTT_Vehilce_BW">
-			<Original>TTT Vehilce (BW)</Original>
+		<Key ID="STR_TTT_Vehicle_BW">
+			<Original>TTT Vehicle (BW)</Original>
 			<German>TTT Fahrzeuge (BW)</German>
-			<English>TTT Vehilce (BW)</English>
+			<English>TTT Vehicle (BW)</English>
 		</Key>
-		<Key ID="STR_TTT_Vehilce_US">
+		<Key ID="STR_TTT_Vehicle_US">
 			<Original>TTT Fahrzeuge (US)</Original>
 			<German>TTT Fahrzeuge (US)</German>
-			<English>TTT Vehilce (US)</English>
+			<English>TTT Vehicle (US)</English>
 		</Key>
-		<Key ID="STR_TTT_Vehilce_PMC">
+		<Key ID="STR_TTT_Vehicle_PMC">
 			<Original>TTT Fahrzeuge (PMC)</Original>
 			<German>TTT Fahrzeuge (PMC)</German>
-			<English>TTT Vehilce (PMC)</English>
+			<English>TTT Vehicle (PMC)</English>
 		</Key>		
 		<Key ID="STR_TTT_UAV_US_Desert">
 			<Original>TTT Aufklaerungsdrohne (US Desert)</Original>
